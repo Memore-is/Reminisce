@@ -1,0 +1,23 @@
+.body{
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 50px;
+}
+
+.github{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    right: -700px;
+    background-color: #00000000;
+    color: rgba(255, 255, 255, 0.81);
+    border: none;
+    cursor: pointer;
+}
+
+.entry{
+    
+}
