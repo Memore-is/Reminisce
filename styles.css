@@ -25,14 +25,14 @@ audio{
 }
 
 .entry{
-    height: 100px;
-    width: 500px;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 
-.e1{
+.e{
     height: 100px;
     width: 200px;
     cursor: pointer;
@@ -43,8 +43,13 @@ audio{
 }
 
 #i1{
-    height: 100px;
-    width: 200px;
-    border-radius: 20px;
+    background-image: url"");
+}
+
+#i2{
     background-image: url("resized/Edward-Gay_The-River-Sound-Beach-Connecticut.jpg");
+}
+
+#i3{
+    background-image: url("resized/2662px-Caspar_David_Friedrich_-_Tageszeitenzyklus,_Der_Morgen_1821-22.jpg");
 }
