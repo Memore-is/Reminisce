@@ -5,51 +5,76 @@ body{
     background-attachment: fixed;
     background-size: cover;
     padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p1{
+    font-size: 20px;
 }
 
 audio{
-    position: fixed;
+    position: absolute;
     bottom: 20px;
-    left: 50px;
+    border-radius: 20px;
+    background-color: rgb(38, 0, 0);
 }
 
 .github{
     font-size: 20px;
-    position: relative;
+    position: absolute;
+    border-radius: 20px;
     top: 20px;
-    right: -700px;
-    background-color: #00000000;
+    right: 40px;
+    background-color: #2d1a00a2;
     color: rgba(255, 255, 255, 0.81);
     border: none;
     cursor: pointer;
 }
 
 .entry{
-    height: auto;
-    width: auto;
+    width: calc(100vh - 100);
+    height: calc(100vh - 250px);
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-evenly;
+    margin-top: 40px;
 }
 
 .e{
-    height: 100px;
+    margin: 40px;
+    height: 125px;
     width: 200px;
     cursor: pointer;
-    background-color: rgb(251, 214, 167);
+    background-color: rgba(251, 214, 167, 0.765);
+    color: rgb(31, 0, 0);
     border-radius: 20px;
     text-align: center;
+    justify-content: center;
     align-items: center;
+    display: flex;
+    font-size: 20px;
 }
 
-#i1{
-    background-image: url"");
+#i3{
+    background-image: url("resized/granville-redmond-pastoral-scene-at-sunset-9f0180-1024.jpg");
 }
 
 #i2{
     background-image: url("resized/Edward-Gay_The-River-Sound-Beach-Connecticut.jpg");
 }
 
-#i3{
-    background-image: url("resized/2662px-Caspar_David_Friedrich_-_Tageszeitenzyklus,_Der_Morgen_1821-22.jpg");
+#i1{
+    background-image: url("resized/Henri-Fantin-Latour-Still-Life-of-White-Roses.jpg");
 }

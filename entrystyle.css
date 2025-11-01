@@ -1,23 +1,59 @@
-.body{
-    background-image: url();
+body{
+    background-image: url(Images/back.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     padding-left: 50px;
+    padding-right: 50px;
 }
 
-.github{
+a{
+    color: rgb(41, 21, 1);
+}
+
+pre{
     font-size: 20px;
-    position: relative;
+    color: antiquewhite;
+}
+
+.home{
+    font-size: 20px;
+    position: absolute;
+    border-radius: 20px;
     top: 20px;
-    right: -700px;
-    background-color: #00000000;
+    right: 40px;
+    background-color: #2d1a00a2;
     color: rgba(255, 255, 255, 0.81);
     border: none;
     cursor: pointer;
 }
 
+.e{
+    margin: 50px;
+    height: 600px;
+    width: 600px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-size: cover; 
+    justify-content: center;
+    display: flex;
+}
+
 .entry{
-    
+    width: calc(100vh - 100);
+    height: calc(100vh - 100px);
+    background-color: rgba(0, 0, 0, 0.786);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#i1{
+    background-image: url("Images/granville-redmond-pastoral-scene-at-sunset-9f0180-1024.jpg");
+}
+
+#i2{
+    background-image: url("Images/Alexander-Helwig-Wyant_Housatonic-Valley.jpg");
 }
